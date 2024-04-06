@@ -2,14 +2,14 @@ import telebot
 import requests
 from telebot import types
 #Replace the bot token here with your actual Telegram Bot token Obtained from bot father..
-bot = telebot.TeleBot("7143813665:AAFGZOig2DoM8sWAh4tQJwUfRKuN2VERqiY")
+bot = telebot.TeleBot("6425200731:AAFSJGez48edbGR2kNv2P4W0PgjO99igLB0")
 #Code for Sending start message
 @bot.message_handler(commands=['start','help'])
 def send_help_message(message):
     startmess = """
 Hello there, 
 I am Infinity AI.
-A chat Gpt bot written in python created by @EscaliBud .
+A chat Gpt bot written in python created by @Evans .
 Just send any message and I will give you a response.
 Type /help or /start to get this message.
     """
